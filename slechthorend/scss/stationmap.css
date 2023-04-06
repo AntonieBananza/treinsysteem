@@ -1,0 +1,181 @@
+body {
+  background-color: rgb(67, 60, 122);
+  font-family: Segoe UI;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-top: 1vh;
+  margin-bottom: 0;
+  height: 5vh;
+}
+header button {
+  background: none;
+  border: none;
+}
+
+#back_button a {
+  color: rgb(247, 247, 252);
+  text-decoration: none;
+}
+#back_button a:visited {
+  color: rgb(247, 247, 252);
+}
+
+#favorites a {
+  color: rgb(219, 212, 100);
+}
+#favorites a:visited {
+  color: rgb(219, 212, 100);
+}
+
+#current_station {
+  margin-left: 5vw;
+  margin-bottom: 3vh;
+}
+#current_station h1 {
+  color: rgb(247, 247, 252);
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#current_station h2 {
+  color: rgb(219, 212, 100);
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#current_station #markFavorite {
+  display: flex;
+  flex-direction: row;
+}
+#current_station #markFavorite button {
+  background: none;
+  border: none;
+}
+
+.yellow {
+  color: rgb(219, 212, 100);
+}
+
+.white {
+  color: rgb(247, 247, 252);
+}
+
+#station_map {
+  margin-left: 4.5vw;
+  width: 90vw;
+  height: 30vh;
+  border: 2px solid rgb(32, 29, 59);
+  border-radius: 2vw;
+  overflow: hidden;
+}
+#station_map img {
+  width: 90vw;
+  height: 30vh;
+}
+
+#facilities {
+  width: 90vw;
+}
+#facilities h2 {
+  color: rgb(247, 247, 252);
+  font-size: 25px;
+  margin-left: 5vw;
+}
+
+#facility_icons {
+  width: 70vw;
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#facility_icons img {
+  width: 15vw;
+}
+
+.map_icon {
+  width: 43vw;
+  height: 15vw;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin-bottom: 2vh;
+}
+.map_icon p {
+  color: rgb(219, 212, 100);
+  margin-left: 2vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.map_icon h3 {
+  color: rgb(247, 247, 252);
+  margin-left: 2vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.icon_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.linkStation {
+  color: rgb(219, 212, 100);
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#overviewFavorites {
+  margin-left: 5vw;
+}
+#overviewFavorites h1 {
+  color: rgb(247, 247, 252);
+  font-size: 30px;
+}
+
+.modal {
+  background-color: rgb(32, 29, 59);
+  border: 2px solid rgb(67, 60, 122);
+  border-radius: 2vw;
+  height: 45vh;
+}
+.modal button {
+  background: none;
+  border: none;
+  color: rgb(219, 212, 100);
+  margin-left: 70vw;
+}
+
+.modal-content h2 {
+  color: rgb(247, 247, 252);
+  font-size: 27px;
+  margin-top: 0px;
+}
+.modal-content p {
+  color: rgb(219, 212, 100);
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.modal-content a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(247, 247, 252);
+}
+
+.favorited-station-name {
+  color: rgb(219, 212, 100);
+  font-size: 20px;
+}/*# sourceMappingURL=stationmap.css.map */
